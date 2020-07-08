@@ -1,0 +1,33 @@
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif; color:#333; margin:0 auto; }
+table{border-collapse:collapse;border-spacing:0;}
+
+a{color:#333;text-decoration:none;}
+a:hover{color:#c00; text-decoration:underline;}
+
+section header {position: relative; text-align: center; border-top: #fff 1px solid}
+section header h1 {position: relative; padding-bottom: 0px; background-color: #ebedf2; font-style: italic; margin: 0px auto; padding-left: 1.05%; padding-right: 1.05%; display: inline; color: #777a7e; font-size: 1.31em; top: -0.65em; padding-top: 0px}
+#site-footer h1 {position: relative; padding-bottom: 0px; background-color: #ebedf2; font-style: italic; margin: 0px auto; padding-left: 1.05%; padding-right: 1.05%; display: inline; color: #777a7e; font-size: 1.31em; top: -0.65em; padding-top: 0px}
+#our-work{position: relative; display:block; margin:20px auto; padding-bottom: 3.75em; overflow: visible; width:56em;}
+#projects-mask {position: relative; width: 100%; overflow: hidden}
+#project-view {position: relative; margin-left: 100%; overflow: auto}
+.project {float: left;width: 100%}
+.project header h2 {margin-bottom: 0px; font-size: 2.62em}
+.project header h4 {font-style: italic; margin-bottom: 0.75em}
+.project img {z-index: 10; border-bottom: #ced1d7 1px solid; position: relative; border-left: #ced1d7 1px solid; margin-bottom: 1.25em; float: left; border-top: #ced1d7 1px solid; border-right: #ced1d7 1px solid}
+.content-wrapper {z-index: 10; border-bottom: #ced1d7 1px solid; position: relative; overflow: hidden}
+.project .open.content-wrapper {height: auto}
+.project .closed.content-wrapper {height: 18.75em}
+.art{border-bottom: #f8f4f4 1px solid; position: relative; border-left: #f8f4f4 1px solid; padding-bottom: 1.37em; padding-left: 2.47%; padding-right: 2.47%; background: url(../images/project-article.png) left top; color: #292d31; overflow: hidden; border-top: #f8f4f4 1px solid; border-right: #f8f4f4 1px solid; padding-top: 1.37em; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display:block;}
+.footer {z-index: 200; position: relative; text-align: center; margin: -39px auto 0px; width: 120px; background: url(../images/project-show-hide.png) no-repeat -121px top; clear: both; cursor: pointer; padding-top: 78px; display:block;}
+.project .footer.hide {background-position: -1px top}
+.project .footer h4 {font-style: italic; margin: 0px; font-size: 1.31em; cursor: pointer}
+.nav {z-index: 150; position: absolute; width:56em; display: none; height: 64px; top: 26px; display:block; float:left;}
+.nav.fixed {position: fixed; bottom: auto; display: block; max-width: 56em; top: 50px}
+nav.bottom {position: absolute; bottom: 7.18em; width: 56em; top: auto; display:block;}
+.prev {border-bottom: 0px; text-indent: -9999px; outline-style: none; outline-color: invert; outline-width: medium; width: 64px; display: block; background: url(../images/project-nav-prev.png) no-repeat center 50%; float: left; height: 64px; margin-left: -32px; opacity: 0.75}
+.next {border-bottom: 0px; text-indent: -9999px; outline-style: none; outline-color: invert; outline-width: medium; width: 64px; display: block; background: url(../images/project-nav-next.png) no-repeat center 50%; float: right; height: 64px;opacity: 0.75;margin-right: -32px;}
+
